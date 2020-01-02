@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/lytios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '24290265@qq.com' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/lytios/eLoanLibgit', :tag => 'v0.1.0' }
+  s.source           = { :git => 'https://github.com/lytios/eLoanLib.git', :tag => 'v0.1.0' }
 
 
   s.ios.deployment_target = '9.0'
