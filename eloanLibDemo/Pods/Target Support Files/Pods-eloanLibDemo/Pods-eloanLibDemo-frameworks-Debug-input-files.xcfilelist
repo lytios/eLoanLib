@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-eloanLibDemo/Pods-eloanLibDemo-frameworks.sh
+${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework
+${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework
+${PODS_ROOT}/NIMSDK/NIMAVChat/NMC.framework
+${PODS_ROOT}/NIMSDK/NIMAVChat/NMCBasicModuleFramework.framework
+${PODS_ROOT}/../../eloanLib/Classes/eLoanSDK.framework

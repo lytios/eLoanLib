@@ -1,0 +1,6 @@
+framework module eLoanSDK {
+  umbrella header "eLoanSDK.h"
+
+  export *
+  module * { export * }
+}
