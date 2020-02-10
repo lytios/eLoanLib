@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *marketingArchivesNum;
 
 //busiType    是    Integer    业务品种
-@property (nonatomic,assign)NSInteger busiType;
+@property (nonatomic,copy)NSString * busiType;
 
 //busiType    是    String    请求地址
 @property (nonatomic,copy)NSString *url;

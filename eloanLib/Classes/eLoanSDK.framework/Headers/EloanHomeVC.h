@@ -6,14 +6,14 @@
 //  Copyright © 2019年 24290265@qq.com. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "EloanBaseVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class EloanHomeModel;
-@interface EloanHomeVC : UIViewController
+@interface EloanHomeVC : EloanBaseVC
 
-+ (UINavigationController *)eNavigationControllerWithClassModel:(EloanHomeModel *)model;
++ (UINavigationController *)eNavigationControllerWithBundle:(NSBundle *)bundle ClassModel:(EloanHomeModel *)model;
 
 @property(nonatomic,strong,readonly)EloanHomeModel *model;
 
