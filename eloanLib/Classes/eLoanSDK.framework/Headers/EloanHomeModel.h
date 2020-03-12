@@ -52,12 +52,14 @@ NS_ASSUME_NONNULL_BEGIN
 //busiType    是    Integer    业务品种
 @property (nonatomic,copy)NSString * busiType;
 
-//busiType    是    String    请求地址
+//url    是    String    请求地址
 @property (nonatomic,copy)NSString *url;
 
-//busiType    是    String    面签地址
+//HRfaceUrl    是    String    面签地址
 @property (nonatomic,copy)NSString *HRfaceUrl;
 
+//payStatus    是    String    支付状态
+@property (nonatomic,copy)NSString *payStatus;
 
 - (id)infoCheck;
 + (NSDictionary *)dicFromObject:(NSObject *)object;
