@@ -14,14 +14,17 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.8)
   - eCameraLib (1.0.0)
-  - eHRFaceSDK (3.1.5)
-  - eloanLib (0.1.0):
+  - eHRFaceSDK (3.1.6.1):
+    - AliyunOSSiOS
+  - eloanLib (1.0.3):
     - AFNetworking
     - eCameraLib
     - eHRFaceSDK
     - eRelyOnLib
     - eRelyOnLibFile
+    - NIMSDK (= 6.10.1)
     - YYModel
   - eRelyOnLib (1.0.8):
     - AFNetworking
@@ -48,11 +51,13 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - AliyunOSSiOS (= 2.10.8)
   - eloanLib (from `../`)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AliyunOSSiOS
     - eCameraLib
     - eHRFaceSDK
     - eRelyOnLib
@@ -73,9 +78,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   eCameraLib: b73d438db4a0a7dcbc7d247b6ad26bc47818b0b7
-  eHRFaceSDK: 01a841ec7693f6051fb1c65a96eb7ef474931e60
-  eloanLib: 3031e121956e13e39ec8a56fb2627e24f3cad888
+  eHRFaceSDK: 26d49ed78852a18ec6e83b9001108fef4afb925c
+  eloanLib: a7e59e278390790d268a650ab18619e4a295f163
   eRelyOnLib: 19ff3dacb31ea5df273e4b968262ff0f9a1c62ba
   eRelyOnLibFile: 7ccddad6f740919165b005fe17e325afc07e9d44
   IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
@@ -83,11 +89,11 @@ SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
-  NIMSDK: a5bbf7c5c97f8192076f507f06775b9d4f58c285
+  NIMSDK: f2fbf1729e352fbe6345adf1d081a9ac8856b7cb
   SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
   WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 10ba04048a16403e586c8d52145bb7e88fc75112
+PODFILE CHECKSUM: d7d5ab74c69662f92d4bbe027932193404f9bc41
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

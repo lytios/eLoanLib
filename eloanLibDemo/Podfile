@@ -4,7 +4,7 @@ platform :ios, '8.0'
 target 'eloanLibDemo' do
 
 pod 'eloanLib',:path => '../'
-
+pod 'AliyunOSSiOS','2.10.8'
 end
 
 

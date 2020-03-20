@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <eLoanSDK/EloanHomeVC.h>
 #import <eLoanSDK/EloanHomeModel.h>
+#import <eLoanSDK/EloanConstUrl.h>
 #import "EloanTableViewCell.h"
 #import <YYModel/YYModel.h>
 
@@ -30,7 +31,7 @@
     [self.view endEditing:YES];
     
     EloanHomeModel *model =  [EloanHomeModel yy_modelWithDictionary:self.dataDic];
-    UINavigationController *nav = [EloanHomeVC eNavigationControllerWithClassModel:model];
+    UINavigationController *nav = [EloanHomeVC eNavigationControllerWithBundle:eLoanBUNDLE ClassModel:model];
     nav.modalPresentationStyle = 0;
     [self presentViewController:nav animated:YES completion:nil];
 }
