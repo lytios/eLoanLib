@@ -40,7 +40,7 @@ PODS:
   - MBProgressHUD (1.1.0)
   - MJExtension (3.2.1)
   - MJRefresh (3.3.1)
-  - NIMSDK (7.1.0)
+  - NIMSDK (6.10.1)
   - SDWebImage (5.4.0):
     - SDWebImage/Core (= 5.4.0)
   - SDWebImage/Core (5.4.0)

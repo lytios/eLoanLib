@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-eloanLibDemo/Pods-eloanLibDemo-resources.sh
-${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle
-${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
-${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/eCameraLib/eCameraLib.bundle
-${PODS_ROOT}/eHRFaceSDK/eHRFaceSDK/Assets/HRFaceImageBundle.bundle
-${PODS_ROOT}/eRelyOnLib/eRelyOnLib/Assets/BHFace_Resource.bundle
-${PODS_ROOT}/eRelyOnLib/eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle
-${PODS_ROOT}/../../eloanLib/Assets/eLoanBundle.bundle
