@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class EloanHomeModel;
 @interface EloanHomeVC : UIViewController
 
-+ (UINavigationController *)eNavigationControllerWithBundle:(NSBundle *)bundle ClassModel:(EloanHomeModel *)model;
++ (UINavigationController *)eNavigationControllerWithClassModel:(EloanHomeModel *)model;
 
 @property(nonatomic,strong,readonly)EloanHomeModel *model;
 

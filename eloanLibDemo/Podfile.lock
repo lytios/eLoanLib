@@ -18,7 +18,7 @@ PODS:
   - eCameraLib (1.0.0)
   - eHRFaceSDK (3.1.6.1):
     - AliyunOSSiOS
-  - eloanLib (1.0.3):
+  - eloanLib (1.0.6):
     - AFNetworking
     - eCameraLib
     - eHRFaceSDK
@@ -81,7 +81,7 @@ SPEC CHECKSUMS:
   AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   eCameraLib: b73d438db4a0a7dcbc7d247b6ad26bc47818b0b7
   eHRFaceSDK: 26d49ed78852a18ec6e83b9001108fef4afb925c
-  eloanLib: a7e59e278390790d268a650ab18619e4a295f163
+  eloanLib: 7506cc5690aa75dbfde42bea4fc2e7908532ab63
   eRelyOnLib: 19ff3dacb31ea5df273e4b968262ff0f9a1c62ba
   eRelyOnLibFile: 7ccddad6f740919165b005fe17e325afc07e9d44
   IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63

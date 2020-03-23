@@ -31,7 +31,7 @@
     [self.view endEditing:YES];
     
     EloanHomeModel *model =  [EloanHomeModel yy_modelWithDictionary:self.dataDic];
-    UINavigationController *nav = [EloanHomeVC eNavigationControllerWithBundle:eLoanBUNDLE ClassModel:model];
+    UINavigationController *nav = [EloanHomeVC eNavigationControllerWithClassModel:model];
     nav.modalPresentationStyle = 0;
     [self presentViewController:nav animated:YES completion:nil];
 }

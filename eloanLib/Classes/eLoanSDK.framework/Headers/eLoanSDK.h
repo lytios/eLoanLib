@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EloanHomeModel.h"
-#import "EloanHomeVC.h"
-#import "EloanConstUrl.h"
+
 //! Project version number for eLoanSDK.
 FOUNDATION_EXPORT double eLoanSDKVersionNumber;
 
