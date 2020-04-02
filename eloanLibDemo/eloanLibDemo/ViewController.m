@@ -46,37 +46,41 @@
     
     [self.view addSubview:self.tableview];
     self.dataDic = [NSMutableDictionary dictionary];
-    [self.dataDic addEntriesFromDictionary:@{
-                                             @"regfrom":@"guopai",
-                                             @"platNo":@"guopai",
-                                             @"assurerNo":@"S02000071",
-                                             @"bankCode":@"7122681835",
-                                             @"userName":@"黄维",
-                                             @"idCard":@"511529198703010799",
-                                             @"mobile":@"18903892876",
-                                             @"loanMoney":@"150000",
-                                             @"sourceOrderNo":@"123456231",
-                                             @"tenderNo":@"46000014",
-                                             @"marketingArchivesNum":@"46000014",
-                                             @"busiType":@"19",
-                                             @"url":@"http://14.17.122.160:19081",
-                                             @"HRfaceUrl":@"http://114.55.55.41:8998"
-                                             }];
-    self.rowArray =  @[@{@"name":@"经办银行",@"code":@"regfrom"},
-                       @{@"name":@"平台编号",@"code":@"platNo"},
-                       @{@"name":@"合作方代码",@"code":@"assurerNo"},
-                       @{@"name":@"业务经办银行编码",@"code":@"bankCode"},
-                       @{@"name":@"客户姓名",@"code":@"userName"},
-                       @{@"name":@"身份证号码",@"code":@"idCard"},
-                       @{@"name":@"手机号",@"code":@"mobile"},
-                       @{@"name":@"意向价格",@"code":@"loanMoney"},
-                       @{@"name":@"机构订单号",@"code":@"sourceOrderNo"},
-                       @{@"name":@"投标号",@"code":@"tenderNo"},
-                       @{@"name":@"营销档案编号",@"code":@"marketingArchivesNum"},
-                       @{@"name":@"业务品种",@"code":@"busiType"},
-                       @{@"name":@"请求地址",@"code":@"url"},
-                       @{@"name":@"面签地址",@"code":@"HRfaceUrl"},
-                       @{@"name":@"支付状态",@"code":@"payStatus"}];
+     [self.dataDic addEntriesFromDictionary:@{
+                                                @"regfrom":@"guopai",
+                                                @"platNo":@"guopai",
+                                                @"assurerNo":@"S02000071",
+                                                @"bankCode":@"7122681835",
+                                                @"userName":@"王兴霖",
+                                                @"idCard":@"410802198404280010",
+                                                @"mobile":@"18903892876",
+                                                @"loanMoney":@"150000",
+                                                @"sourceOrderNo":@"123456030",
+                                                @"tenderNo":@"55117321",
+                                                @"marketingArchivesNum":@"46000014",
+                                                @"busiType":@"19",
+                                                @"url":@"http://14.17.122.160:19081",
+                                                @"HRfaceUrl":@"http://114.55.55.41:8998",
+                                                @"payStatus":@"dasdas",
+                                                @"signMode":@"3"
+                                                }];
+       self.rowArray =  @[@{@"name":@"经办银行",@"code":@"regfrom"},
+                          @{@"name":@"平台编号",@"code":@"platNo"},
+                          @{@"name":@"合作方代码",@"code":@"assurerNo"},
+                          @{@"name":@"业务经办银行编码",@"code":@"bankCode"},
+                          @{@"name":@"客户姓名",@"code":@"userName"},
+                          @{@"name":@"身份证号码",@"code":@"idCard"},
+                          @{@"name":@"手机号",@"code":@"mobile"},
+                          @{@"name":@"意向价格",@"code":@"loanMoney"},
+                          @{@"name":@"机构订单号",@"code":@"sourceOrderNo"},
+                          @{@"name":@"投标号",@"code":@"tenderNo"},
+                          @{@"name":@"营销档案编号",@"code":@"marketingArchivesNum"},
+                          @{@"name":@"业务品种",@"code":@"busiType"},
+                          @{@"name":@"请求地址",@"code":@"url"},
+                          @{@"name":@"面签地址",@"code":@"HRfaceUrl"},
+                          @{@"name":@"支付状态",@"code":@"payStatus"},
+                          @{@"name":@"签约环境",@"code":@"signMode"}
+       ];
     
     
     self.tableview.delegate =self;

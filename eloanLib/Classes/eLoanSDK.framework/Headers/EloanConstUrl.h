@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSString *requestUrl;
 
+@property (nonatomic,copy) NSString *signMode;
+
 @end
 
 //获取创建订单
@@ -43,4 +45,10 @@ FOUNDATION_EXTERN NSString *const auditResult_URL;
 
 //SDK视频面签已完成回调接口
 FOUNDATION_EXTERN NSString *const faceComplete_URL;
+
+
+
+
+//ocr图片接口
+FOUNDATION_EXTERN NSString *const orcIMg_URL;
 NS_ASSUME_NONNULL_END

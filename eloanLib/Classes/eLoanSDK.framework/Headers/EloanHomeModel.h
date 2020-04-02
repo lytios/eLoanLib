@@ -61,6 +61,10 @@ NS_ASSUME_NONNULL_BEGIN
 //payStatus    是    String    支付状态
 @property (nonatomic,copy)NSString *payStatus;
 
+
+//payStatus    是    String    电子签约环境 正式环境:2 测试环境:行内测试环境
+@property (nonatomic,copy)NSString *signMode;
+
 - (id)infoCheck;
 + (NSDictionary *)dicFromObject:(NSObject *)object;
 
