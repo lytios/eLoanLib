@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.dependency 'eRelyOnLibFile'
   s.dependency 'eCameraLib'
   s.dependency 'NIMSDK','6.10.1'
-  s.dependency 'HRLivingBodyDetection','1.0.1'
+  s.dependency 'HRLivingBodyDetection','1.0.0'
   s.dependency 'HRSigningContract','1.7.2.0.1'
 end
