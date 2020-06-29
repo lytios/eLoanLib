@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eloanLib'
-  s.version          = '1.1.6'
+  s.version          = '1.1.7'
   s.summary          = 'A short description of eloanLib'
   s.homepage         = 'https://github.com/lytios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '24290265@qq.com' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/lytios/eLoanLib.git', :tag => 'v1.1.6' }
+  s.source           = { :git => 'https://github.com/lytios/eLoanLib.git', :tag => 'v1.1.7' }
 
 
   s.ios.deployment_target = '9.0'
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.dependency 'eCameraLib'
   s.dependency 'NIMSDK','6.10.1'
   s.dependency 'HRLivingBodyDetection','1.0.0'
-  s.dependency 'HRSigningContract','1.7.2.0.2'
+  s.dependency 'HRSigningContract','1.7.2.0.3'
 end
