@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 //mobile    是    String    手机号
 @property (nonatomic,copy)NSString *mobile;
 
-//loanMoney    是    String    意向价格
+//loanMoney    否    String    意向价格
 @property (nonatomic,copy)NSString * loanMoney;
 
 //sourceOrderNo    是    String    机构订单号
@@ -61,9 +61,14 @@ NS_ASSUME_NONNULL_BEGIN
 //payStatus    是    String    支付状态
 @property (nonatomic,copy)NSString *payStatus;
 
-
 //payStatus    是    String    电子签约环境 正式环境:2 测试环境:行内测试环境
 @property (nonatomic,copy)NSString *signMode;
+
+//bidScene     否    String    中标场景（0：中标前 1:中标后）
+@property (nonatomic,copy)NSString *bidScene;
+
+//bidScene     否    String    期数 (只能是2位及以下数字)
+@property (nonatomic,copy)NSString *repayPeriod;
 
 - (id)infoCheck;
 + (NSDictionary *)dicFromObject:(NSObject *)object;
