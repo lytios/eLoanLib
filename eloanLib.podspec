@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.resource = 'eloanLib/Assets/eLoanBundle.bundle'
   s.dependency 'AFNetworking','4.0.0'
   s.dependency 'YYModel'
-  s.dependency 'eHRFaceSDK','0.0.5'
+  s.dependency 'eHRFaceSDK','0.0.6'
   s.dependency 'eCameraLib'
   s.dependency 'NIMSDK','6.10.1'
-  s.dependency 'HRSigningContract','1.7.2.0.8'
+  s.dependency 'HRSigningContract','1.7.2.0.9'
 end
