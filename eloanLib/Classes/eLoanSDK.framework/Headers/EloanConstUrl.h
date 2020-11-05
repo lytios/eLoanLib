@@ -49,4 +49,7 @@ FOUNDATION_EXTERN NSString *const faceComplete_URL;
 
 //ocr图片接口
 FOUNDATION_EXTERN NSString *const orcIMg_URL;
+
+
+
 NS_ASSUME_NONNULL_END
