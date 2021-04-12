@@ -57,44 +57,26 @@
     
     [self.dataDic addEntriesFromDictionary:@{
                                              @"regfrom":@"guopai",
-                                             @"platNo":@"下易立进各争明",
+                                             @"platNo":@"guopai",
                                              @"assurerNo":@"S36092776",
                                              @"bankCode":@"8640328375",
-                                             @"userName":@"王兴霖",
-                                             @"idCard":@"410802198404280010",
-                                             @"mobile":@"15168421330",
-                                             @"loanMoney":@"100000",
-                                             @"sourceOrderNo":@"x0901005",
+                                             @"userName":@"黄维",
+                                             @"idCard":@"511529198703010799",
+                                             @"mobile":@"18903892876",
+                                             @"loanMoney":@"150000",
+                                             @"sourceOrderNo":@"12345679",
                                              @"tenderNo":@"55117321",
-                                             @"marketingArchivesNum":@"46000156",
+                                             @"marketingArchivesNum":@"46000014",
                                              @"busiType":@"19",
-                                             @"url":@"http://192.168.0.224:19081/api",
+                                             @"url":@"http://hrfax.imwork.net:29081/api",
                                              @"HRfaceUrl":@"http://114.55.55.41:8998",
-                                             @"payStatus":@"1",
-                                             @"signMode":@"1",
+                                             @"payStatus":@"dasdas",
+                                             @"signMode":@"3",
                                              @"bidScene":@"1",
-                                             @"repayPeriod":@"12"
+                                             @"repayPeriod":@"12",
+                                             @"isApplyCharge":@"0",
+                                             @"authUrl":@"/api/auth"
                                              }];
-//    [self.dataDic addEntriesFromDictionary:@{
-//                                             @"regfrom":@"guopai",
-//                                             @"platNo":@"guopai",
-//                                             @"assurerNo":@"S02000071",
-//                                             @"bankCode":@"7122681835",
-//                                             @"userName":@"王兴霖",
-//                                             @"idCard":@"410802198404280010",
-//                                             @"mobile":@"18903892876",
-//                                             @"loanMoney":@"150000",
-//                                             @"sourceOrderNo":@"123456030",
-//                                             @"tenderNo":@"55117321",
-//                                             @"marketingArchivesNum":@"46000014",
-//                                             @"busiType":@"19",
-//                                             @"url":@"http://14.17.122.160:19081",
-//                                             @"HRfaceUrl":@"http://114.55.55.41:8998",
-//                                             @"payStatus":@"dasdas",
-//                                             @"signMode":@"3",
-//                                             @"bidScene":@"0",
-//                                             @"repayPeriod":@"12"
-//                                             }];
 //    [self.dataDic addEntriesFromDictionary:@{
 //                                             @"regfrom":@"guopai",
 //                                             @"platNo":@"gp",
@@ -130,7 +112,9 @@
                        @{@"name":@"支付状态",@"code":@"payStatus"},
                        @{@"name":@"签约环境",@"code":@"signMode"},
                        @{@"name":@"中标场景",@"code":@"bidScene"},
-                       @{@"name":@"期数",@"code":@"repayPeriod"}
+                       @{@"name":@"期数",@"code":@"repayPeriod"},
+                       @{@"name":@"是否申请附加费",@"code":@"isApplyCharge"},
+                       @{@"name":@"鉴权地址",@"code":@"authUrl"}
     ];
    
   

@@ -67,8 +67,14 @@ NS_ASSUME_NONNULL_BEGIN
 //bidScene     否    String    中标场景（0：中标前 1:中标后）
 @property (nonatomic,copy)NSString *bidScene;
 
-//bidScene     否    String    期数 (只能是2位及以下数字)
+//repayPeriod     否    String    期数 (只能是2位及以下数字)
 @property (nonatomic,copy)NSString *repayPeriod;
+
+//isApplyCharge     否    String    是否申请附加费(0:否 1:是)
+@property (nonatomic,copy)NSString *isApplyCharge;
+
+//authUrl     否    String    鉴权接口地址
+@property (nonatomic,copy)NSString *authUrl;
 
 - (id)infoCheck;
 + (NSDictionary *)dicFromObject:(NSObject *)object;
