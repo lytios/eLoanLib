@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.dependency 'eHRFaceSDK','0.0.6'
   s.dependency 'eCameraLib'
-  s.dependency 'NIMSDK','6.10.1'
-  s.dependency 'HRSigningContract','1.7.2.0.9'
+  s.dependency 'NIMSDK'
+  s.dependency 'HRSigningContract','1.7.2.1.0'
 end
